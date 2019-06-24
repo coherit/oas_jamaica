@@ -21,7 +21,7 @@ TEMPLATES[0]['DIRS'].append(os.path.join(APP_ROOT, 'widgets', 'templates'))
 TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'sjv-$^0@2oe03#mp^z3dcitj4l)48$q6kb&&t57h2f@jtbkie0'
+SECRET_KEY = 'xxxxxxx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
