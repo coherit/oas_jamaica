@@ -1,3 +1,9 @@
+# Arches stuff
+package_settings.py
+settings_local.py
+oas_jamaica/media/packages
+oas_jamaica/node_modules
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
