@@ -42,6 +42,14 @@ a {
 	background-color: #FFB81C;
 	color: #000;
 }
+.btn-secondary {
+	background-color: #007749;
+	color: #FFB81C;
+}
+.btn-secondary:hover {
+	background-color: #000;
+	color: #FFF;
+}
 .about-section a {
 	font-weight: 900;
 	text-decoration: underline;
@@ -273,8 +281,8 @@ svg {
 .slide:nth-child(2) .slide__overlay-path {
   fill: #ffb81C;
 }
-.slide:nth-child(2) .slide__text-heading, .slide:nth-child(1) .slide__text-desc {
-  color: white;
+.slide:nth-child(2) .slide__text-heading, .slide:nth-child(2) .slide__text-desc {
+  color: black;
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
@@ -291,7 +299,7 @@ svg {
 .slide:nth-child(3) .slide__overlay-path {
   fill: #000;
 }
-.slide:nth-child(3) .slide__text-heading, .slide:nth-child(1) .slide__text-desc {
+.slide:nth-child(3) .slide__text-heading, .slide:nth-child(3) .slide__text-desc {
   color: white;
 }
 @media (max-width: 991px) {
@@ -309,8 +317,8 @@ svg {
 .slide:nth-child(4) .slide__overlay-path {
   fill: #FFB81C;
 }
-.slide:nth-child(4) .slide__text-heading, .slide:nth-child(1) .slide__text-desc {
-  color: white;
+.slide:nth-child(4) .slide__text-heading, .slide:nth-child(4) .slide__text-desc {
+  color: black;
 }
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
