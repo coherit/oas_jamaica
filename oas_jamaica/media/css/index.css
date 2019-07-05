@@ -96,14 +96,18 @@ div.collapse.navbar-collapse.navbar-ex1-collapse > div > ul {
         color: #fff;
     }
 }
-
-@media (max-width: 1000px) {
+@media (min-width: 1024px) and (max-width: 1280px) { 
+	.one-page-header .navbar-nav>li>a, .navbar-default .navbar-nav>li>a {
+		font-size: 12px;
+	}
+}
+@media (max-width: 1024px) {
     .one-page-header .navbar-nav>li> .fa-chevron-circle-down {
         padding-left: 12px;
         margin-top: 14px;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     ul .auth-options {
         position: inherit;
         float:left;
@@ -113,7 +117,7 @@ div.collapse.navbar-collapse.navbar-ex1-collapse > div > ul {
         margin-right: -142px;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     ul .auth-options {
         position: inherit;
         float:right;
@@ -388,6 +392,12 @@ svg {
 	font-weight: 900;
 	line-height: normal;
 }
+@media (min-width: 1024px) and (max-width: 1280px) { 
+	.slide__text-heading {
+    	line-height: normal;
+    	font-size: 2em;
+  }
+}
 @media (max-width: 991px) {
   .slide__text-heading {
     line-height: normal;
@@ -402,7 +412,12 @@ svg {
     display: none;
   }
 }
-.slide__text .btn-primary {
+@media (min-width: 1024px) and (max-width: 1280px) { 
+	.slide__text-desc {
+		font-size: 1em;
+	}
+}
+.slide__text .btn-primary, .slide__text .btn-secondary {
 	font-size: 120%;
 	border: none;
 }
@@ -417,6 +432,12 @@ svg {
 /******************************************************/
 #contact h1, #contact h2, #contact h3, #contact h4, #contact p, #contact .title-v1 h1, .title-v1 h2 {
 	color: white;
+}
+#contact a {
+	color: #FFB81C;	
+}
+#contact a:hover {
+	color: #fff;
 }
 
 /******************************************************/
