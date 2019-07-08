@@ -401,7 +401,7 @@ svg {
 @media (max-width: 991px) {
   .slide__text-heading {
     line-height: normal;
-    font-size: 3em;
+    font-size: 1.5em;
   }
 }
 .slide__text-desc {
