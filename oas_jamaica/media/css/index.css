@@ -73,7 +73,6 @@ a {
 .one-page-header .navbar-nav>li> .fa-chevron-circle-down {
     padding: 0px 0px 0px;
     z-index: 100;
-    margin-top: 20px;
 }
 .one-page-header .navbar-nav>li>a:before {
 	content: none;
