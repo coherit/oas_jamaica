@@ -50,6 +50,7 @@ a {
 .btn-secondary {
   background-color: #007749;
   color: #ffb81c;
+  border: #ffb81c solid 1px;
 }
 .about-section a {
   font-weight: 900;
@@ -466,7 +467,6 @@ svg {
 .slide__text .btn-primary,
 .slide__text .btn-secondary {
   font-size: 120%;
-  border: none;
   margin: 5px;
 }
 /******************************************************/
@@ -559,4 +559,12 @@ footer .social-icons li a {
 }
 .page-scroll a:hover {
   color: #fae648;
+}
+
+/******************************************************/
+/*		Login/auth page								  */
+/******************************************************/
+
+.img-login {
+    background-image: url(../img/photos/mountains.jpg);
 }

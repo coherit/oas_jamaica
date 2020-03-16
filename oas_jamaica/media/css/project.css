@@ -61,10 +61,6 @@
 #container.mainnav-sm #mainnav-menu > .active-sub a:hover {
   background-color: #ffb81c;
 }
-.footer.social-section {
-  padding-bottom: 50px;
-  padding-top: 30px;
-}
 
 @media (min-width: 768px) {
   #container.mainnav-sm .shortcut-grid:hover {
@@ -72,69 +68,72 @@
     -webkit-transition: background-color 0.2s, padding-left 0.3s,
       box-shadow 0.4s;
     transition: background-color 0.2s, padding-left 0.3s, box-shadow 0.4s;
-  }
-  #container.mainnav-sm .shortcut-grid:hover,
-  #container.mainnav-sm .popover.mainnav-shortcut {
+}
+#container.mainnav-sm .shortcut-grid:hover,
+#container.mainnav-sm .popover.mainnav-shortcut {
     background-color: #007749;
     color: #fff;
-  }
+}
 
-  #container.mainnav-sm #mainnav-menu a:hover {
+#container.mainnav-sm #mainnav-menu a:hover {
     box-shadow: inset 4px 0 0 0 #ffb81c;
-  }
+}
 
-  #container.mainnav-sm #mainnav-menu .active-link > a,
-  #container.mainnav-sm #mainnav-menu .active-sub > a {
+#container.mainnav-sm #mainnav-menu .active-link > a,
+#container.mainnav-sm #mainnav-menu .active-sub > a {
     color: #007749;
-  }
+}
 
-  #container.mainnav-sm #mainnav .mainnav-widget > .show-small a {
+#container.mainnav-sm #mainnav .mainnav-widget > .show-small a {
     display: block;
     color: #fff;
     padding: 12px 0 12px 18.5px;
-  }
-  #container.mainnav-sm #mainnav .mainnav-widget > .show-small a:hover {
+}
+#container.mainnav-sm #mainnav .mainnav-widget > .show-small a:hover {
     color: #007749;
     box-shadow: inset 4px 0 0 0 #ffb81c;
     -webkit-transition: background-color 0.2s, padding-left 0.3s,
       box-shadow 0.4s;
     transition: background-color 0.2s, padding-left 0.3s, box-shadow 0.4s;
-  }
+}
 
-  #container.mainnav-sm #mainnav .mainnav-widget .hover {
+#container.mainnav-sm #mainnav .mainnav-widget .hover {
     color: #fff;
     background-color: #007749;
-  }
+}
 
-  .menu-popover .sub-menu ul {
+.menu-popover .sub-menu ul {
     background-color: #002215;
-  }
+}
   .menu-popover .sub-menu ul ul {
     background-color: #002215;
-  }
-  .menu-popover .sub-menu ul li > a {
+}
+
+.menu-popover .sub-menu ul li > a {
     color: #fff;
-  }
-  .menu-popover .single-content {
+}
+
+.menu-popover .single-content {
     color: #fff;
     background-color: #007749;
-  }
-  .menu-popover.popover {
+}
+    
+.menu-popover.popover {
     background-color: #002215;
     color: #fff;
-  }
+}
 
-  .menu-popover > .popover-title {
+.menu-popover > .popover-title {
     background-color: #007749;
     color: #fff;
-  }
-  .menu-popover > .popover-title strong {
+}
+.menu-popover > .popover-title strong {
     font-weight: 300;
-  }
+}
 
-  .menu-popover .mainnav-widget-content {
+.menu-popover .mainnav-widget-content {
     background-color: #007749;
-  }
+}
 
 .mainnav-sm .popover.mainnav-shortcut {
   background-color: #002215;
@@ -144,10 +143,44 @@
 @media (min-width: 768px) {
   #container.mainnav-in.easeInBack:not(.boxed-layout) #mainnav-container {
     box-shadow: -20px 0 0 0 #007749;
-  }
+}
 
-  #container.mainnav-out .brand-title {
+#container.mainnav-out .brand-title {
     background-color: transparent;
     color: #454545;
-  }
+}
+/******************************************************/
+/*		Login/auth page								  */
+/******************************************************/
 
+.img-login {
+    background-image: url(../img/photos/barbadosbea2.jpg);
+}
+
+/******************************************************/
+/*		Profile Manager						  */
+/******************************************************/
+
+.profile-summary-page .img-responsive {
+	max-height: 249px;    
+}
+
+#panorama-bg {
+    background-image: url(../img/photos/coast1.jpg);
+}
+
+.profile-full-name {
+    font-weight:650;
+}
+
+.profile-e-mail {
+    font-weight: 700;
+    color: lightgray;
+}
+/******************************************************/
+/*		Login/auth page								  */
+/******************************************************/
+
+.img-login {
+    background-image: url(../img/photos/mountains.jpg);
+}

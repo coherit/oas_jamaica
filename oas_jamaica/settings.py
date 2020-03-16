@@ -31,6 +31,13 @@ ROOT_URLCONF = 'oas_jamaica.urls'
 # a prefix to append to all elasticsearch indexes, note: must be lower case
 ELASTICSEARCH_PREFIX = 'oas_jamaica'
 
+ADMINS = (
+    ('Neil Silberman', 'neil.silberman@coherit.com'),
+)
+
+# group to assign users who self sign up via the web ui
+USER_SIGNUP_GROUP = 'Guest'
+
 DATABASES = {
     "default": {
         "ATOMIC_REQUESTS": False,
