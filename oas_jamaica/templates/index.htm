@@ -303,8 +303,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                 <div class="grid-item col-xs-12 col-md-4">
                     <div class="service-block service-block-default grid-item-content">
                         <i class="icon-custom icon-lg icon-bg-u rounded-x fas fa-thumbs-up"></i>
-                        <h2 class="heading-md">{% trans "How Can I nominate a Site  via  JAMAICA Sites & Monuments." %}</h2>
-                        <p>A request to the JNHT to have a site declared a national monument or protected national heritage can be made by downloading and filling out <a href="{% static '/pdfs/shortnomform.pdf' %}" target="_blank">an official registration form </a> and sending it by regular post or email to <a href="http://jnht.com/contact.php">the headquarters of the JNHT</a>.</p> 
+                        <h2 class="heading-md">{% trans "How Can I nominate a Site  via  Jamaica Sites & Monuments." %}</h2>
+                        <p>A request to the JNHT to have a site declared a national monument or protected national heritage can be made by downloading and filling out an official registration form in <a href="{% static '/pdfs/shortnom6-20.pdf' %}" target="_blank">PDF format</a> or <a href="{% static '/pdfs/shortnom6-20.doc' %}" target="_blank">Word format</a> and sending it by regular post or email to <a href="http://jnht.com/contact.php">the headquarters of the JNHT</a>.</p> 
                         <p>The JNHT website administrator and technical officer will then evaluate the suggestion and where found prudent proceed to research and prepare the site for the consideration of the JNHT Declaration Committee.</p>
                     </div> 
                 </div>
@@ -361,7 +361,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
     <!-- Social Section -->
     <footer class="social-section">
-        <p>{{copyright_year}} &copy; {{copyright_text}}<br>
+        <p>{% now "Y" %} &copy; {{copyright_text}}<br>
         Jamaica National Heritage Trust</p>
     </footer> 
     
